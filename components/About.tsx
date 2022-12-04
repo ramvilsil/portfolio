@@ -6,7 +6,7 @@ const About = () => {
     return (
         <>
             {/* Projects Container */}
-            <div id="about" className="bg-stone-800 text-white rounded-3xl p-4">
+            <div className="bg-stone-800 text-white rounded-3xl p-4">
 
                 {/* Title */}
                 <h1 className="text-white w-max text-2xl p-6">About</h1>

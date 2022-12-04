@@ -23,37 +23,30 @@ const Main = () => {
 
                     <div className="intro">
 
-                    
-                        {/* later to center the intro in the middle of the page */}
-                        <div className="">
+                        <Intro />
 
-                            <Intro />
-
-                        </div>
-
-                    
                     </div>
 
                     {/* Navbar Container */}
-                    <div className="mb-24 text-center sticky top-0">
+                    <div className="sticky top-1">
 
                         <Navbar />
 
                     </div>
 
-                    <div className="mt-32 mb-24">
+                    <div id="projects" className="mt-32 mb-24">
 
                         <Projects />
 
                     </div>
 
-                    <div className="mt-32 mb-24">
+                    <div id="about" className="mt-32 mb-24">
 
                         <About />
 
                     </div>
 
-                    <div className="mt-32 mb-16">
+                    <div id="contact" className="mt-32 mb-16">
 
                         <Contact />
 

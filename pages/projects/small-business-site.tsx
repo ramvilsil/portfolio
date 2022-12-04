@@ -1,15 +1,27 @@
 
+import Project from "../../components/projects/Project"
+import SharedNavbar from "../../components/projects/SharedNavbar"
 
-
-
-const Portfolio = () => {
+const BusinessSite = () => {
     return (
         <>
 
-            <h1>Smal site</h1>
+
+            <div className="flex justify-center">
+
+                {/* Main Container */}
+                <div className="bg-stone-900 h-fit w-6/12 portrait:w-screen">
+
+                    <SharedNavbar />
+
+                    <Project title='Small Business Site' />
+
+                </div>
+            
+            </div>
 
         </>
     )
 }
 
-export default Portfolio
+export default BusinessSite

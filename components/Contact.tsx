@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <>
             {/* Contact Container */}
-            <div id="contact" className="bg-stone-800 text-white rounded-3xl p-4">
+            <div className="bg-stone-800 text-white rounded-3xl p-4">
 
                 {/* Title */}
                 <h1 className="w-max text-2xl p-6">Contact</h1>
@@ -63,7 +63,7 @@ const Contact = () => {
                                     ></textarea>
                                 </div>
 
-                                <button className='bg-white text-stone-900 w-full p-4 mt-4'>
+                                <button className='bg-white text-stone-900 w-full p-4 mt-4 rounded-2xl hover:opacity-50'>
                                     Send Message
                                 </button>
 
