@@ -6,12 +6,16 @@
 
 html {
     scroll-behavior: smooth;
+
 }
+
+
 
 body {
     font-family: sans-serif;
     background-color: #1c1917;
 }
+
 
 .intro {
     height: 70vh;
@@ -20,3 +24,20 @@ body {
     align-items: center;
     margin: 2rem;
 }
+
+
+::-webkit-scrollbar {
+    width: 0.66rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1c1917; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #292524; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #57534e; 
+  }

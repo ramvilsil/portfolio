@@ -19,9 +19,9 @@ const Main = () => {
             <div className="flex justify-center">
 
                 {/* Main Container */}
-                <div className="bg-stone-900 h-fit w-6/12 portrait:w-screen">
+                <div className="bg-stone-900 h-fit w-6/12 portrait:w-screen ">
 
-                    <div className="intro">
+                    <div className="intro ">
 
                         <Intro />
 
@@ -34,7 +34,7 @@ const Main = () => {
 
                     </div>
 
-                    <div id="projects" className="mt-32 mb-24">
+                    <div id="projects" className="mt-32 mb-24 ">
 
                         <Projects />
 
