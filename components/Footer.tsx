@@ -17,7 +17,7 @@ const Footer = () => {
                     <div>&nbsp;</div>
                     <a href="https://nextjs.org/" className=" hover:underline">Next.js</a>
                     <div>,&nbsp;</div>
-                    <a href="https://reactjs.org/" className=" hover:underline">React</a>
+                    <a href="https://reactjs.org/" className=" hover:underline">TypeScript React</a>
 
                     <div className="">&nbsp;•&nbsp;Deployed with&nbsp;</div>
                     <a href="https://vercel.com/" className=" hover:underline">Vercel</a>

@@ -6,7 +6,7 @@ const Intro = () => {
     return (
         <>
             {/* Projects Container */}
-            <div id="about" className="text-white">
+            <div className="text-white">
 
                 {/* Title */}
 
