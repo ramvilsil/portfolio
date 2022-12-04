@@ -12,7 +12,10 @@ const Portfolio = () => {
                 {/* Main Container */}
                 <div className="bg-stone-900 h-fit w-6/12 portrait:w-screen">
 
+                    <div className="sticky top-1">
                     <SharedNavbar />
+
+                    </div>
 
                     <Project title='Portfolio' />
 
