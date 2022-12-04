@@ -12,7 +12,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className="mt-16 mb-16 flex ">
+                <div className="mt-16 mb-16 flex portrait:text-sm">
                     <div className="">Built with</div>
                     <div>&nbsp;</div>
                     <a href="https://nextjs.org/" className=" hover:underline">Next.js</a>

@@ -19,19 +19,21 @@ const Projects = () => {
 
 
                     <Link href='projects/portfolio'>
-                        <div className="bg-stone-800 rounded-lg p-4 flex flex-col items-center hover:bg-stone-900">
+                        <div className="bg-stone-800  text-white rounded-lg p-4 flex flex-col items-center hover:bg-stone-900">
 
+                            <div className="text-lg">Portfolio</div>
 
                             <Image className='bg-white rounded-lg m-4 p-4' height={250} objectFit='cover' src={PortfolioThumb} alt='/'/>
 
-                            <div className="text-white rounded-lg m-4 p-4">Portfolio: Personal portoflio I built throughout feknlsgklsnfglsknf
-                            snjgsfklsfk</div>
+                            <div className="text-center rounded-lg m-4 p-4">My personal website I built 
+                            with the React framework Next.js, and styled with Tailwind CSS</div>
 
 
 
                         </div>
                     </Link>
 
+                    {/*
                     <Link href='projects/small-business-site'>
                         <div className="bg-stone-800 rounded-lg p-4 flex flex-col items-center hover:bg-stone-900">
 
@@ -45,7 +47,7 @@ const Projects = () => {
 
                         </div>
                     </Link>
-
+                    */}
 
                     
 
