@@ -9,10 +9,10 @@ const Projects = () => {
     return (
         <>
             {/* Projects Container */}
-            <div className="bg-stone-800  rounded-3xl p-4">
+            <div className="bg-stone-800  rounded-3xl p-8">
 
                 {/* Title */}
-                <h1 className="text-white w-max rounded-lg text-2xl p-6">Projects</h1>
+                <h1 className="text-white w-max rounded-lg text-2xl m-4">Projects</h1>
 
                 <div className="flex justify-evenly items-center portrait:flex-col ">
 
@@ -25,7 +25,7 @@ const Projects = () => {
 
                             <Image className='bg-white rounded-lg m-4 p-4' height={250} objectFit='cover' src={PortfolioThumb} alt='/'/>
 
-                            <div className="text-center rounded-lg m-4 p-4">My personal website I built 
+                            <div className="text-center rounded-lg m-8">My personal website I built 
                             with the React framework Next.js, and styled with Tailwind CSS</div>
 
 
