@@ -3,7 +3,7 @@ import Project from "../../components/projects/Project"
 import Footer from "../../components/Footer"
 
 
-const Portfolio = () => {
+const SmallBusiness = () => {
     return (
         <>
 
@@ -18,7 +18,7 @@ const Portfolio = () => {
 
                     </div>
 
-                    <Project title='Portfolio' projectImage='/../public/assets/favicon.png' projectLink="https://rxvs.dev" projectSourceLink="https://github.com/ramvilsil/portfolio"/>
+                    <Project title='Business' projectImage='/../public/assets/business.png' projectLink="https://business-website-one.vercel.app" projectSourceLink="https://github.com/ramvilsil/business-webpage" />
 
 
 
@@ -31,7 +31,7 @@ const Portfolio = () => {
 
                             <div className="p-4">
 
-                            I built my portfolio site with a popular React framework called Next.js <br></br><br></br>
+                            Built with <br></br><br></br>
                             The process in building:
 
                             </div>
@@ -54,4 +54,4 @@ const Portfolio = () => {
     )
 }
 
-export default Portfolio
+export default SmallBusiness

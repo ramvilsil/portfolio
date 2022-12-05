@@ -11,7 +11,7 @@ const Contact = () => {
 
                 <div className="flex justify-evenly items-center">
 
-                    <div className='col-span-3 w-full h-auto shadow-xl shadow-stone-900 rounded-xl lg:p-4'>
+                    <div className='col-span-3 w-full h-auto rounded-xl lg:p-4'>
 
                         <div className='p-4'>
 
@@ -66,8 +66,11 @@ const Contact = () => {
                                 </button>
 
                             </form>
+
                         </div>
+
                     </div>
+                    
                 </div>
 
             </div>
