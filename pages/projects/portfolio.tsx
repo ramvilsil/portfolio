@@ -18,7 +18,7 @@ const Portfolio = () => {
 
                     </div>
 
-                    <Project title='Portfolio' projectImage='/../public/assets/favicon.png' projectLink="https://rxvs.dev" projectSourceLink="https://github.com/ramvilsil/portfolio"/>
+                    <Project title='Portfolio' projectImage='/assets/favicon.png' projectLink="https://rxvs.dev" projectSourceLink="https://github.com/ramvilsil/portfolio"/>
 
 
 

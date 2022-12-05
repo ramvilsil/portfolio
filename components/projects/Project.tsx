@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 
-const Project = ({ title, projectImage, projectSourceLink, projectLink } : { title : string, projectImage : string, projectSourceLink : string, projectLink : string}) => {
+const Project = ({title, projectImage, projectSourceLink, projectLink} : {title : string, projectImage : string, projectSourceLink : string, projectLink :  string})=> {
     return (
         <>
 
