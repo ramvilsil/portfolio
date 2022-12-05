@@ -1,7 +1,6 @@
 import Link from "next/link"
 
-
-
+{/* Navbar with next Links*/}
 const SharedNavbar = () => {
     return (
         <>
@@ -23,8 +22,8 @@ const SharedNavbar = () => {
                     <div className="text-white p-2 m-4 rounded-lg hover:bg-stone-800">Contact</div>
                 </Link>
 
-
             </div>
+            
         </>
     )
 }
