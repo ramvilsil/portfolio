@@ -18,7 +18,7 @@ const SmallBusiness = () => {
 
                     </div>
 
-                    <Project title='Business' projectImage='/../public/assets/business.png' projectLink="https://business-website-one.vercel.app" projectSourceLink="https://github.com/ramvilsil/business-webpage" />
+                    <Project title='Business' projectImage='/assets/business.png' projectLink="https://business-website-one.vercel.app" projectSourceLink="https://github.com/ramvilsil/business-webpage" />
 
 
 
