@@ -20,11 +20,11 @@ const Projects = () => {
 
                     <Link href='projects/portfolio'>
 
-                        <div className="bg-stone-800 w-72 text-white rounded-lg p-4 flex flex-col items-center hover:bg-stone-900">
+                        <div className="bg-stone-800 w-72 h-96 text-white rounded-2xl p-4 flex flex-col items-center hover:bg-stone-900">
 
                             <div className="text-lg">Portfolio</div>
 
-                            <Image className='bg-white rounded-lg m-4 p-4' height={250} objectFit='cover' src={Project1Thumb} alt='/'/>
+                            <Image className='bg-white rounded-lg m-4 p-4' height={200} objectFit='cover' src={Project1Thumb} alt='/'/>
 
                             <div className="text-center rounded-lg m-8">
                                 Next.js, TypeScript React, Tailwind CSS
@@ -36,11 +36,11 @@ const Projects = () => {
 
                     <Link href='projects/small-business'>
 
-                        <div className="bg-stone-800 w-72  text-white rounded-lg p-4 flex flex-col items-center hover:bg-stone-900">
+                        <div className="bg-stone-800 w-72 h-96 text-white rounded-2xl p-4 flex flex-col items-center hover:bg-stone-900">
 
                             <div className="text-lg">Business Site</div>
 
-                            <Image className='bg-white rounded-lg m-4 p-4' height={250} objectFit='cover' src={Project2Thumb} alt='/'/>
+                            <Image className='bg-white rounded-lg m-4 p-4' height={200} objectFit='cover' src={Project2Thumb} alt='/'/>
 
                             <div className="text-center rounded-lg m-8">
                                 React, Custom CSS
