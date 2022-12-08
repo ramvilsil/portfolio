@@ -4,7 +4,7 @@ import Link from "next/link"
 const SharedNavbar = () => {
     return (
         <>
-            <div className="m-auto rounded-2xl flex justify-center items-center bg-stone-900  ">
+            <div className="m-auto w-max h-14 rounded-2xl flex justify-center items-center bg-stone-900">
 
                 <Link href="/">
                     <div className="text-white p-2 m-4 rounded-lg opacity-50 hover:opacity-100">Home</div>

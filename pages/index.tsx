@@ -26,7 +26,7 @@ export default function Home() {
       <div className="flex justify-center">
 
         {/* Main Container */}
-        <div className="h-fit w-6/12 portrait:w-screen ">
+        <div className="h-fit w-6/12 portrait:w-screen">
 
           {/* Intro container with custom CSS class */}
           <div className="intro">
@@ -36,13 +36,13 @@ export default function Home() {
           </div>
 
           {/* Index Navbar Container */}
-          <div className="sticky top-1">
+          <div className="sticky top-2">
 
               <IndexNavbar />
 
           </div>
 
-          <div id="projects" className="mt-32 mb-24 ">
+          <div id="projects" className="mt-32 mb-24">
 
               <Projects />
 

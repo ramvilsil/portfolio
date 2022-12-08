@@ -31,8 +31,8 @@ const Portfolio = () => {
 
                             <div className="p-4">
 
-                            I built my portfolio site with a popular React framework called Next.js <br></br><br></br>
-                            The process in building:
+                            I built my portfolio site with Next.js <br></br><br></br>
+                            
 
                             </div>
 
