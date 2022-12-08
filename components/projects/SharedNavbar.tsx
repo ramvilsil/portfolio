@@ -7,19 +7,19 @@ const SharedNavbar = () => {
             <div className="m-auto rounded-2xl flex justify-center items-center bg-stone-900  ">
 
                 <Link href="/">
-                    <div className="text-white p-2 m-4 rounded-lg hover:bg-stone-800">Home</div>
+                    <div className="text-white p-2 m-4 rounded-lg opacity-50 hover:opacity-100">Home</div>
                 </Link>
 
                 <Link href="/#projects">
-                    <div className="text-white p-2 m-4 rounded-lg hover:bg-stone-800">Projects</div>
+                    <div className="text-white p-2 m-4 rounded-lg opacity-50 hover:opacity-100">Projects</div>
                 </Link>
                 
                 <Link href="/#about">
-                    <div className="text-white p-2 m-4 rounded-lg hover:bg-stone-800">About</div>
+                    <div className="text-white p-2 m-4 rounded-lg opacity-50 hover:opacity-100">About</div>
                 </Link>
 
                 <Link href="/#contact">
-                    <div className="text-white p-2 m-4 rounded-lg hover:bg-stone-800">Contact</div>
+                    <div className="text-white p-2 m-4 rounded-lg opacity-50 hover:opacity-100">Contact</div>
                 </Link>
 
             </div>

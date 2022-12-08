@@ -9,46 +9,86 @@ const Projects = () => {
         <>
 
             {/* Projects Container */}
-            <div className="bg-stone-800 rounded-3xl p-8">
+            <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700  rounded-3xl p-8">
 
                 {/* Title */}
                 <h1 className="text-white w-max rounded-lg text-2xl m-4">Projects</h1>
 
 
                 {/* Might be better to switch to grid instead of flex to add more rows */}
-                <div className="flex justify-evenly items-center portrait:flex-col ">
+                <div className="flex justify-evenly items-center flex-col ">
 
-                    <Link href='projects/portfolio'>
+                    <div className="flex portrait:flex-col">
 
-                        <div className="bg-stone-800 w-72 h-96 text-white rounded-2xl p-4 flex flex-col items-center hover:bg-stone-900">
+                        <Link href='projects/portfolio'>
 
-                            <div className="text-lg">Portfolio</div>
+                            <div className="w-72 h-96 text-white rounded-2xl p-4 flex flex-col items-center hover:bg-gradient-to-br from-black via-stone-900 to-stone-900 ">
 
-                            <Image className='bg-white rounded-lg m-4 p-4' height={200} objectFit='cover' src={Project1Thumb} alt='/'/>
+                                <div className="text-lg">1 | Portfolio</div>
 
-                            <div className="text-center rounded-lg m-8">
-                                Next.js, TypeScript React, Tailwind CSS
+                                <Image className='bg-white rounded-lg m-4 p-4' height={200} src={Project1Thumb} alt='/'/>
+
+                                <div className="text-center rounded-lg m-8">
+                                    Next.js, TypeScript React, Tailwind CSS
+                                </div>
+
                             </div>
 
-                        </div>
+                        </Link>
 
-                    </Link>
+                        <Link href='projects/small-business'>
 
-                    <Link href='projects/small-business'>
+                            <div className="w-72 h-96 text-white rounded-2xl p-4 flex flex-col items-center hover:bg-gradient-to-br from-black via-stone-900 to-stone-900 ">
 
-                        <div className="bg-stone-800 w-72 h-96 text-white rounded-2xl p-4 flex flex-col items-center hover:bg-stone-900">
+                                <div className="text-lg">2 | Small Business Page</div>
 
-                            <div className="text-lg">Business Site</div>
+                                <Image className='bg-white rounded-lg m-4 p-4' height={200} src={Project2Thumb} alt='/'/>
 
-                            <Image className='bg-white rounded-lg m-4 p-4' height={200} objectFit='cover' src={Project2Thumb} alt='/'/>
+                                <div className="text-center rounded-lg m-8">
+                                    React, Custom CSS
+                                </div>
 
-                            <div className="text-center rounded-lg m-8">
-                                React, Custom CSS
                             </div>
 
-                        </div>
+                        </Link>
 
-                    </Link>
+                    </div>
+
+                    <div className="flex portrait:flex-col">
+
+                        <Link href='projects/portfolio'>
+
+                            <div className="w-72 h-96 text-white rounded-2xl p-4 flex flex-col items-center hover:bg-gradient-to-br from-black via-stone-900 to-stone-900 ">
+
+                                <div className="text-lg">3</div>
+
+                                <Image className='bg-white rounded-lg m-4 p-4' height={200} src={Project1Thumb} alt='/'/>
+
+                                <div className="text-center rounded-lg m-8">
+                                    Next.js, TypeScript React, Tailwind CSS
+                                </div>
+
+                            </div>
+
+                        </Link>
+
+                        <Link href='projects/small-business'>
+
+                            <div className="w-72 h-96 text-white rounded-2xl p-4 flex flex-col items-center hover:bg-gradient-to-br from-black via-stone-900 to-stone-900 ">
+
+                                <div className="text-lg">4</div>
+
+                                <Image className='bg-white rounded-lg m-4 p-4' height={200} src={Project2Thumb} alt='/'/>
+
+                                <div className="text-center rounded-lg m-8">
+                                    React, Custom CSS
+                                </div>
+
+                            </div>
+
+                        </Link>
+
+                    </div>
 
                 </div>
 

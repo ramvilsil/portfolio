@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <>
             {/* Contact Container */}
-            <div className="bg-stone-800 text-white rounded-3xl p-4">
+            <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-4">
 
                 {/* Title */}
                 <h1 className="w-max text-2xl p-6">Contact</h1>
@@ -61,7 +61,7 @@ const Contact = () => {
                                     ></textarea>
                                 </div>
 
-                                <button className='bg-stone-900  w-full p-4 mt-4 rounded-2xl hover:opacity-60'>
+                                <button className='bg-gradient-to-br from-black via-stone-900 to-stone-900 w-full p-4 mt-4 rounded-2xl hover:opacity-60 '>
                                     Send Message
                                 </button>
 

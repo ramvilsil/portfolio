@@ -22,7 +22,7 @@ const SmallBusiness = () => {
 
 
 
-                    <div className="bg-stone-800 text-white rounded-3xl p-4 mt-12 mb-16">
+                    <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-4 mt-12 mb-16">
 
                         {/* Title */}
                         <h1 className="text-white w-max text-2xl p-4">Description</h1>

@@ -26,7 +26,7 @@ export default function Home() {
       <div className="flex justify-center">
 
         {/* Main Container */}
-        <div className="bg-stone-900 h-fit w-6/12 portrait:w-screen ">
+        <div className="h-fit w-6/12 portrait:w-screen ">
 
           {/* Intro container with custom CSS class */}
           <div className="intro">
