@@ -12,7 +12,7 @@ const SmallBusiness = () => {
                 {/* Main Container */}
                 <div className="bg-stone-900 h-fit w-6/12 portrait:w-screen">
 
-                    <div className="sticky top-1">
+                    <div className="sticky top-2">
 
                         <SharedNavbar />
 
@@ -31,8 +31,8 @@ const SmallBusiness = () => {
 
                             <div className="p-4">
 
-                            Built with <br></br><br></br>
-                            The process in building:
+                            Built with React, custom CSS <br></br><br></br>
+                            
 
                             </div>
 

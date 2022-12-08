@@ -10,26 +10,26 @@ const Intro = () => {
 
                 {/* Title */}
 
-                <div className="flex justify-start">
+                <div className="flex justify-start mb-6">
 
                     {/* Insert image here*/}
-                    <div></div>
+                    <div className='bg-black w-16 h-16 rounded-full justify-center flex items-center border-2 border-sky-500 mr-4 text-6xl'></div>
 
                      {/* name and intro text */}
-                    <div className="flex flex-col justify-center">
+                    <div className="flex flex-col justify-center opacity-80">
 
-                        <h1 className=" w-max text-5xl">Ramon</h1>
+                        <h1 className="w-max text-4xl font-semibold">Ramon</h1>
 
-                        <div className='italic'>Web Developer</div>
+                        <div className='text-lg'>Web Developer</div>
 
                     </div>
 
 
                 </div>
                
-                <div className="flex justify-start items-center">
+                <div className="flex justify-start items-center opacity-80">
 
-                    <div>Welcome to my portfolio website.</div>
+                    <div className='text-lg'>Welcome to my online portfolio. Here I'll share my projects and thoughts on how to become a better developer. Feel free to get in touch.</div>
 
                 </div>
 
