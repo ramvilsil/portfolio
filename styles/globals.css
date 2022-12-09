@@ -13,7 +13,7 @@ body {
 }
 
 .intro {
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: left;
     align-items: center;
