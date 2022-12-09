@@ -15,16 +15,23 @@ const Footer = () => {
 
                 </div>
 
-                <div className="mt-8 flex portrait:text-sm">
+                <div className="mt-10 flex">
                     <div className="opacity-50">Built with</div>
                     <div>&nbsp;</div>
                     <a href="https://nextjs.org/" className="opacity-50 hover:opacity-100 hover:underline">Next.js</a>
                     <div className="opacity-50">,&nbsp;</div>
                     <a href="https://reactjs.org/" className="opacity-50 hover:opacity-100 hover:underline">TypeScript React</a>
+                    <div className="opacity-50">,&nbsp;</div>
+                    <a href="https://tailwindcss.com/" className="opacity-50 hover:opacity-100 hover:underline">Tailwind CSS</a>
 
-                    <div className="opacity-50">&nbsp;•&nbsp;Deployed with&nbsp;</div>
-                    <a href="https://vercel.com/" className="opacity-50 hover:opacity-100 hover:underline">Vercel</a>
+                    <div className="opacity-50 portrait:hidden">&nbsp;•&nbsp;Deployed with&nbsp;</div>
+                    <a href="https://vercel.com/" className="opacity-50 hover:opacity-100 hover:underline portrait:hidden">Vercel</a>
 
+                </div>
+
+                <div className="mt-4 flex">
+                    <div className="opacity-50 landscape:hidden">Deployed with&nbsp;</div>
+                        <a href="https://vercel.com/" className="opacity-50 hover:opacity-100 hover:underline landscape:hidden">Vercel</a>
                 </div>
 
             </footer>

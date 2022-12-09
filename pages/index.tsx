@@ -22,11 +22,11 @@ export default function Home() {
       </Head>
       
       
-      {/* later to implement grid for left, main, right containers? */}
+      
       <div className="flex justify-center">
 
         {/* Main Container */}
-        <div className="h-fit w-6/12 portrait:w-screen">
+        <div className="h-fit w-6/12 portrait:w-screen portrait:flex items-center flex-col">
 
           {/* Intro container with custom CSS class */}
           <div className="intro">
@@ -36,31 +36,31 @@ export default function Home() {
           </div>
 
           {/* Index Navbar Container */}
-          <div className="sticky top-2">
+          <div className="sticky top-0 portrait:top-2 portrait:w-11/12">
 
               <IndexNavbar />
 
           </div>
 
-          <div id="projects" className="mt-32 mb-24">
+          <div id="projects" className="mt-32 mb-24 portrait:w-11/12">
 
               <Projects />
 
           </div>
 
-          <div id="about" className="mt-32 mb-24">
+          <div id="about" className="mt-32 mb-24 portrait:w-11/12">
 
               <About />
 
           </div>
 
-          <div id="contact" className="mt-32 mb-16">
+          <div id="contact" className="mt-32 mb-16 portrait:w-11/12">
 
               <Contact />
 
           </div>
 
-          <div className="mb-16">
+          <div className="mb-16 portrait:w-11/12">
 
               <Footer />
 
