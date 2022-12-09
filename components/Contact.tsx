@@ -4,10 +4,10 @@ const Contact = () => {
     return (
         <>
             {/* Contact Container */}
-            <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-8">
+            <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-8 shadow-lg shadow-black">
 
                 {/* Title */}
-                <h1 className="w-max text-3xl m-4 font-semibold">Contact</h1>
+                <h1 className="w-max text-3xl m-4 font-semibold">Contact<div className="text-lg font-normal portrait:hidden">Feel free to get in touch.</div></h1>
 
                 <div className="flex justify-evenly items-center">
 
@@ -18,7 +18,7 @@ const Contact = () => {
                             <form action='' method='POST' encType='multipart/form-data'>
 
                                 <div className='flex flex-col py-2'>
-                                    <label className='text-sm py-2'>Name</label>
+                                    <label className='text-sm py-2 font-light'>Name</label>
                                     <input
                                         className='border-2 rounded-lg p-3 flex text-stone-900'
                                         type='text'
@@ -27,7 +27,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className='flex flex-col py-2'>
-                                    <label className='text-sm py-2'>Email</label>
+                                    <label className='text-sm py-2 font-light'>Email</label>
                                     <input
                                         className='border-2 rounded-lg p-3 flex text-stone-900'
                                         type='email'
@@ -35,7 +35,7 @@ const Contact = () => {
                                     />
                                 </div>
                                 <div className='flex flex-col py-2'>
-                                    <label className='text-sm py-2'>Subject</label>
+                                    <label className='text-sm py-2 font-light'>Subject</label>
                                     <input
                                         className='border-2 rounded-lg p-3 flex text-stone-900'
                                         type='text'
@@ -43,7 +43,7 @@ const Contact = () => {
                                     />
                                 </div>
                                 <div className='flex flex-col py-2'>
-                                    <label className='text-sm py-2'>Message</label>
+                                    <label className='text-sm py-2 font-light'>Message</label>
                                     <textarea
                                         className='border-2 rounded-lg p-3 text-stone-900' 
                                         rows={10}
@@ -51,7 +51,7 @@ const Contact = () => {
                                     ></textarea>
                                 </div>
 
-                                <button className='bg-gradient-to-br from-black via-stone-900 to-stone-900 w-full p-4 mt-4 rounded-2xl hover:opacity-60 '>
+                                <button className='font-medium bg-gradient-to-br from-black via-stone-900 to-stone-900 w-full p-4 mt-4 rounded-2xl hover:opacity-60 '>
                                     Send Message
                                 </button>
 
