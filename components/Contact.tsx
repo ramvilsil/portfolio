@@ -11,31 +11,21 @@ const Contact = () => {
 
                 <div className="flex justify-evenly items-center">
 
-                    <div className='col-span-3 w-full h-auto rounded-xl lg:p-4'>
+                    <div className='col-span-3 w-full h-auto'>
 
                         <div className='p-4'>
 
                             <form action='' method='POST' encType='multipart/form-data'>
-                                <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
-                                    <div className='flex flex-col'>
-                                        <label className='text-sm py-2'>Name</label>
-                                        <input
-                                        className='border-2 rounded-lg p-3 flextext-stone-900'
-                                        type='text'
-                                        name='name'
-                                        />
-                                    </div>
-                                    <div className='flex flex-col'>
-                                        <label className='text-sm py-2'>
-                                        Organization Name
-                                        </label>
-                                        <input
+
+                                <div className='flex flex-col py-2'>
+                                    <label className='text-sm py-2'>Name</label>
+                                    <input
                                         className='border-2 rounded-lg p-3 flex text-stone-900'
                                         type='text'
-                                        name='phone'
-                                        />
-                                    </div>
+                                        name='name'
+                                    />
                                 </div>
+
                                 <div className='flex flex-col py-2'>
                                     <label className='text-sm py-2'>Email</label>
                                     <input

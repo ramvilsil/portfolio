@@ -42,19 +42,19 @@ export default function Home() {
 
           </div>
 
-          <div id="projects" className="mt-32 mb-24 portrait:w-11/12">
+          <div id="projects" className="mt-64 mb-24 portrait:w-11/12">
 
               <Projects />
 
           </div>
 
-          <div id="about" className="mt-32 mb-24 portrait:w-11/12">
+          <div id="about" className="mt-24 mb-24 portrait:w-11/12">
 
               <About />
 
           </div>
 
-          <div id="contact" className="mt-32 mb-16 portrait:w-11/12">
+          <div id="contact" className="mt-24 mb-16 portrait:w-11/12">
 
               <Contact />
 

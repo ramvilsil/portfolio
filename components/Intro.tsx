@@ -1,6 +1,4 @@
 
-import PortfolioThumb from '../public/assets/favicon.png'
-
 
 const Intro = () => {
     return (
@@ -13,7 +11,7 @@ const Intro = () => {
                 <div className="flex justify-start mb-6">
 
                     {/* Insert image here*/}
-                    <div className='bg-black w-16 h-16 rounded-full justify-center flex items-center border-2 border-sky-500 mr-4 text-6xl'></div>
+                    <div className='shadow-xl shadow-black bg-gradient-to-tr from-stone-600 via-stone-700 to-stone-600 w-16 h-16 rounded-full justify-center flex items-center border-2 border-sky-500 mr-4 text-6xl'></div>
 
                      {/* name and intro text */}
                     <div className="flex flex-col justify-center opacity-80">
