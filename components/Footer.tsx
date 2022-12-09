@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
 
-            <footer className="flex flex-col justify-center items-center text-white">
+            <footer className="flex flex-col justify-center items-center text-white font-light">
 
                 <hr className="text-white w-11/12 mb-8 opacity-50"></hr>
 
@@ -15,7 +15,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className="mt-10 flex">
+                <div className="mt-14 flex">
                     <div className="opacity-50">Built with</div>
                     <div>&nbsp;</div>
                     <a href="https://nextjs.org/" className="opacity-50 hover:opacity-100 hover:underline">Next.js</a>

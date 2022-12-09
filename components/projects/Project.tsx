@@ -6,7 +6,7 @@ const Project = ({title, projectImage, projectSourceLink, projectLink} : {title 
         <>
 
             {/* Project Display Container */}
-            <div className="mt-20 bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-8 portrait:w-11/12">
+            <div className="mt-20 bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-8 w-11/12 shadow-lg shadow-black">
 
                 {/* Title */}
                 <h1 className="w-max text-3xl m-4 font-semibold">{title}</h1>

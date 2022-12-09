@@ -27,7 +27,12 @@ const Intro = () => {
                
                 <div className="flex justify-start items-center opacity-80">
 
-                    <div className='text-lg'>Welcome to my online portfolio. Here I'll share my projects and thoughts on how to become a better developer. Feel free to get in touch.</div>
+                    <div className='text-lg'>
+                        
+                    Welcome to my online portfolio. 
+                    Here I'll share my projects along with my thoughts on becoming a better developer & problem solver. 
+                    
+                    </div>
 
                 </div>
 

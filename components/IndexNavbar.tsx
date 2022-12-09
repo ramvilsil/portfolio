@@ -5,15 +5,15 @@ import Link from "next/link"
 const Navbar = () => {
     return (
         <>
-            <div className="w-full h-16 justify-evenly portrait:rounded-3xl flex items-center bg-stone-900 text-md">
+            <div className="w-full h-16 justify-evenly portrait:rounded-3xl flex items-center bg-stone-900 text-md font-light text-white">
 
                 <Link href="/">
-                    <div className="text-white p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Home</div>
+                    <div className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Home</div>
                 </Link>
                 
-                <a href="#projects" className="text-white p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Projects</a>
-                <a href="#about" className="text-white p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">About</a>
-                <a href="#contact" className="text-white p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Contact</a>
+                <a href="#projects" className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Projects</a>
+                <a href="#about" className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">About</a>
+                <a href="#contact" className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Contact</a>
 
 
             </div>
