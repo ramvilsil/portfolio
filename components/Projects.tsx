@@ -12,7 +12,7 @@ const Projects = () => {
             <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 rounded-3xl p-8">
 
                 {/* Title */}
-                <h1 className="text-white w-max rounded-lg text-2xl m-4">Projects</h1>
+                <h1 className="text-white w-max rounded-lg text-3xl m-4 mb-12 font-semibold">Projects</h1>
 
 
                 {/* Might be better to switch to grid instead of flex to add more rows */}
@@ -72,7 +72,7 @@ const Projects = () => {
 
                         </Link>
 
-                        <Link href='projects/small-business'>
+                        <Link href='projects/theatre'>
 
                             <div className="w-72 h-96 text-white rounded-2xl p-4 flex flex-col items-center hover:bg-gradient-to-br from-black via-stone-900 to-stone-900 ">
 

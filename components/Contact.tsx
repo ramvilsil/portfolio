@@ -4,10 +4,10 @@ const Contact = () => {
     return (
         <>
             {/* Contact Container */}
-            <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-4">
+            <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-8">
 
                 {/* Title */}
-                <h1 className="w-max text-2xl p-6">Contact</h1>
+                <h1 className="w-max text-3xl m-4 font-semibold">Contact</h1>
 
                 <div className="flex justify-evenly items-center">
 

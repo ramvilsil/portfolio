@@ -10,9 +10,9 @@ const SmallBusiness = () => {
             <div className="flex justify-center">
 
                 {/* Main Container */}
-                <div className="bg-stone-900 h-fit w-6/12 portrait:w-screen">
+                <div className="h-fit w-6/12 portrait:w-screen portrait:flex items-center flex-col">
 
-                    <div className="sticky top-2">
+                    <div className="sticky top-0 portrait:top-2 portrait:w-11/12">
 
                         <SharedNavbar />
 
@@ -22,10 +22,10 @@ const SmallBusiness = () => {
 
 
 
-                    <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-4 mt-12 mb-16">
+                    <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-8 mt-12 mb-16 portrait:w-11/12">
 
                         {/* Title */}
-                        <h1 className="text-white w-max text-2xl p-4">Description</h1>
+                        <h1 className="w-max text-3xl m-4 font-semibold">Description</h1>
 
                         <div className="flex items-center">
 
@@ -40,7 +40,7 @@ const SmallBusiness = () => {
 
                     </div>
 
-                    <div className="mb-16">
+                    <div className="mb-16 portrait:w-11/12">
 
                         <Footer />
 

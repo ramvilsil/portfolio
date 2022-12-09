@@ -6,10 +6,10 @@ const Project = ({title, projectImage, projectSourceLink, projectLink} : {title 
         <>
 
             {/* Project Display Container */}
-            <div className="mt-20 bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-4">
+            <div className="mt-20 bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-8 portrait:w-11/12">
 
                 {/* Title */}
-                <h1 className="text-2xl m-6">{title}</h1>
+                <h1 className="w-max text-3xl m-4 font-semibold">{title}</h1>
 
                 <div className="flex justify-evenly items-center flex-col m-4">
 
@@ -24,7 +24,7 @@ const Project = ({title, projectImage, projectSourceLink, projectLink} : {title 
 
                             <a href={projectSourceLink} className="bg-gradient-to-br from-black via-stone-900 to-stone-900 p-4 m-4 rounded-xl hover:opacity-60">View Source</a>
 
-                            <a href={projectLink} className="bg-gradient-to-br from-black via-stone-900 to-stone-900 p-4 m-3 rounded-xl hover:opacity-60">View Deployed App</a>
+                            <a href={projectLink} className="bg-gradient-to-br from-black via-stone-900 to-stone-900 p-4 m-4 rounded-xl hover:opacity-60">View Deployed App</a>
 
                     </div>
                                 
