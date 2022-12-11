@@ -18,7 +18,7 @@ const Portfolio = () => {
 
                     </div>
 
-                    <Project title='Portfolio' projectImage='/assets/favicon.png' projectLink="https://rxvs.dev" projectSourceLink="https://github.com/ramvilsil/portfolio"/>
+                    <Project title='Portfolio' projectImage='/assets/favicon.png' projectLink="https://rxvs.dev" projectSourceLink="https://github.com/ramvilsil/portfolio" techInfo="Next.js / TypeScript React / Tailwind CSS"/>
 
 
 
@@ -31,7 +31,29 @@ const Portfolio = () => {
 
                             <div className="p-4 font-light">
 
-                            I built my portfolio site with Next.js <br></br><br></br>
+                            Why I built this project - To improve my front end skills, mobile responsivness, 
+                            practice positioning elements, gain better familiarity wtih the technologies I used
+
+
+                            <br></br><br></br>
+
+                            What I enjoyed - Tailwind CSS makes it much easier to apply styling. In turn I spend less time on the css syntax 
+                            and more on the actual styling, makes for a better site. Working on the front end I find that it's more effective
+                            than BootStrap.
+
+                            <br></br><br></br>
+
+                            Inspiration for this project - 
+
+                            <ul className="list-disc">
+
+                                <li><a className="hover:underline" href="https://portfolio-next-mumef3aki-fireclint.vercel.app/">portfolio-next-mumef3aki-fireclint.vercel.app</a></li>
+
+                                <li><a className="hover:underline" href="https://delba.dev/">delba.dev</a></li>
+
+                            </ul>
+                            
+                            
                             
 
                             </div>

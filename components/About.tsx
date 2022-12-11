@@ -8,7 +8,7 @@ const About = () => {
             <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-8 shadow-lg shadow-black">
 
                 {/* Title */}
-                <h1 className="text-white w-max text-3xl m-4 font-semibold">About<div className="text-lg font-normal portrait:hidden">My backstory & what I wish to bring</div></h1>
+                <h1 className="text-white w-max text-3xl m-4 font-semibold">About<div className="text-lg font-normal portrait:hidden">My backstory & what I wish to bring.</div></h1>
 
                 <div className="flex items-center">
 

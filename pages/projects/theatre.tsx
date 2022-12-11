@@ -18,9 +18,7 @@ const Theatre = () => {
 
                     </div>
 
-                    <Project title='Theatre' projectImage='/assets/favicon.png' projectLink="https://github.com/ramvilsil/" projectSourceLink="https://github.com/ramvilsil/"/>
-
-
+                    <Project title='Theatre' projectImage='/assets/favicon.png' projectLink="https://github.com/ramvilsil/" projectSourceLink="https://github.com/ramvilsil/" techInfo='React JS / Tailwind CSS'/>
 
                     <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 text-white rounded-3xl p-8 mt-12 mb-16 w-11/12 shadow-lg shadow-black">
 
