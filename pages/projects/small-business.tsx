@@ -18,7 +18,7 @@ const SmallBusiness = () => {
 
                     </div>
 
-                    <Project title='Business' projectImage='/assets/business.png' projectLink="https://business-website-one.vercel.app" projectSourceLink="https://github.com/ramvilsil/business-webpage" />
+                    <Project title='Business' projectImage='/assets/business.png' projectLink="https://business-website-one.vercel.app" projectSourceLink="https://github.com/ramvilsil/business-webpage" techInfo="React JS"/>
 
 
 
@@ -31,8 +31,17 @@ const SmallBusiness = () => {
 
                             <div className="p-4 font-light">
 
-                            Built with React, custom CSS <br></br><br></br>
-                            
+                            Why I built this project - Improve front end skills, mobile responsivness, learn how to create a 
+                            hamburger icon, practice positioning elements, gain familiarity wtih React 
+
+                            <br></br><br></br>
+
+                            What I enjoyed - Helped ready me to improve my portfolio site
+
+                            <br></br><br></br>
+
+                            Inspiration for this project - Creating a simple mobile responsive webpage, 
+                            with a navbar, home, about, contact, and footer                            
 
                             </div>
 
