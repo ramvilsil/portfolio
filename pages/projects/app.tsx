@@ -3,7 +3,7 @@ import Project from "../../components/Project"
 import Footer from "../../components/Footer"
 
 
-const Portfolio = () => {
+const App = () => {
     return (
 
         <>
@@ -22,7 +22,7 @@ const Portfolio = () => {
                     </div>
 
                     {/* Imported Project Section */}
-                    <Project title='Portfolio' projectImage='/assets/favicon.png' projectLink="https://rxvs.dev" projectSourceLink="https://github.com/ramvilsil/portfolio" techInfo="Next.js / TypeScript React / Tailwind CSS"/>
+                    <Project title='App' projectImage='/assets/favicon.png' projectLink="https://github.com/ramvilsil/" projectSourceLink="https://github.com/ramvilsil/" techInfo='React JS / Tailwind CSS'/>
 
                     {/* Description Section Container */}
                     <div className="bg-gradient-to-br from-stone-700 via-stone-800 to-stone-700 rounded-3xl p-8 mt-12 mb-16 w-11/12 shadow-lg shadow-black">
@@ -35,27 +35,7 @@ const Portfolio = () => {
 
                             <div className="p-4 font-light">
 
-                                Why I built this project - To improve my front end skills, mobile responsivness, 
-                                practice positioning elements, gain better familiarity wtih the technologies I used
-
-
-                                <br></br><br></br>
-
-                                What I enjoyed - Tailwind CSS makes it much easier to apply styling. In turn I spend less time on the css syntax 
-                                and more on the actual styling, makes for a better site. Working on the front end I find that it's more effective
-                                than BootStrap.
-
-                                <br></br><br></br>
-
-                                Inspiration for this project - 
-
-                                <ul className="list-disc">
-
-                                    <li><a className="hover:underline" href="https://portfolio-next-mumef3aki-fireclint.vercel.app/">portfolio-next-mumef3aki-fireclint.vercel.app</a></li>
-
-                                    <li><a className="hover:underline" href="https://delba.dev/">delba.dev</a></li>
-
-                                </ul>
+                            {/* Description text here */}
                             
                             </div>
 
@@ -64,7 +44,7 @@ const Portfolio = () => {
                     </div>
 
                     {/* Footer */}
-                    <div className="mb-16 w-11/12"> 
+                    <div className="mb-16 w-11/12">
 
                         <Footer />
 
@@ -77,8 +57,7 @@ const Portfolio = () => {
         </>
 
     )
-
+    
 }
 
-
-export default Portfolio
+export default App

@@ -2,12 +2,16 @@
 
 const Footer = () => {
     return (
+
         <>
 
+            {/* 1 Column Footer */}
             <footer className="flex flex-col justify-center items-center text-white font-light">
 
-                <hr className="text-white w-11/12 mb-8 opacity-50"></hr>
+                {/* Row 1 - Horizontal Rule */}
+                <hr className="w-11/12 mb-8 opacity-50"></hr>
 
+                {/* Row 2 - Social Links */}
                 <div>
                     
                     <a href="https://github.com/ramvilsil" className="p-4 m-4 opacity-50 hover:opacity-100 hover:underline">GitHub</a>
@@ -15,7 +19,9 @@ const Footer = () => {
 
                 </div>
 
+                {/* Row 3 - Tech Links */}
                 <div className="mt-14 flex">
+
                     <div className="opacity-50">Built with</div>
                     <div>&nbsp;</div>
                     <a href="https://nextjs.org/" className="opacity-50 hover:opacity-100 hover:underline">Next.js</a>
@@ -29,15 +35,20 @@ const Footer = () => {
 
                 </div>
 
+                {/* For portrait screens - Row 4 - Tech Links 2 */}
                 <div className="mt-4 flex">
+
                     <div className="opacity-50 landscape:hidden">Deployed with&nbsp;</div>
-                        <a href="https://vercel.com/" className="opacity-50 hover:opacity-100 hover:underline landscape:hidden">Vercel</a>
+                    <a href="https://vercel.com/" className="opacity-50 hover:opacity-100 hover:underline landscape:hidden">Vercel</a>
+                    
                 </div>
 
             </footer>
         
         </>
+
     )
+
 }
 
 
