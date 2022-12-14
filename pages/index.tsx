@@ -9,7 +9,7 @@ import Footer from "../components/Footer"
 
 export default function Home() {
   return (
-    
+
     <>
 
       <Head>
@@ -21,56 +21,62 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
       </Head>
-      
-      
-      
+
       <div className="flex justify-center">
+
+        {/* Index Navbar */}
+        <div className="fixed w-full z-50 top-0 portrait:hidden">
+
+          <IndexNavbar />
+
+        </div>
 
         {/* Main Container */}
         <div className="h-fit w-6/12 portrait:w-screen flex items-center flex-col">
 
+
           {/* Intro container with custom CSS class */}
           <div className="intro">
 
-              <Intro />
+            <Intro />
 
           </div>
 
-          {/* Index Navbar Container */}
-          <div className="sticky top-0 portrait:top-2 portrait:w-11/12 w-full">
+          {/* Mobile Index Navbar Container */}
+          <div className="sticky top-0 portrait:top-2 portrait:w-11/12 w-full landscape:hidden">
 
-              <IndexNavbar />
+            <IndexNavbar />
 
           </div>
 
           <div id="projects" className="mt-64 mb-12 w-11/12">
 
-              <Projects />
+            <Projects />
 
           </div>
 
           <div id="about" className="mt-12 mb-12 w-11/12">
 
-              <About />
+            <About />
 
           </div>
 
           <div id="contact" className="mt-12 mb-12 w-11/12">
 
-              <Contact />
+            <Contact />
 
           </div>
 
           <div className="mb-16 w-11/12">
 
-              <Footer />
+            <Footer />
 
           </div>
 
         </div>
 
-      </div>  
-      
+      </div>
+
     </>
 
   )
