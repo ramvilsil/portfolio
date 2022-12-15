@@ -29,7 +29,7 @@ const ChunkyApp = () => {
                     </div>
 
                     {/* Imported Project Section */}
-                    <Project title='ChunkyApp Web App' projectImage='/assets/R-favicon.png' projectLink="https://github.com/ramvilsil/" projectSourceLink="https://github.com/ramvilsil/" techInfo='ASP.NET MVC' />
+                    <Project title='ChunkyApp Web App' projectImage='/assets/ChunkyApp.png' projectLink="https://github.com/ramvilsil/" projectSourceLink="https://github.com/ramvilsil/" techInfo='ASP.NET MVC' />
 
                     {/* Description Section Container */}
                     <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 mt-12 mb-16 w-11/12 shadow-lg shadow-black">

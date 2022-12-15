@@ -41,17 +41,18 @@ const SmallBusiness = () => {
 
                             <div className="p-4 font-light">
 
-                                Why I built this project - Improve front end skills, mobile responsivness, learn how to create a
-                                hamburger icon, practice positioning elements, gain familiarity wtih React
+                                This is simply a web page built with React components and no CSS frameworks.
+                                It has a navbar, a home section, an about section, a contact section, and a
+                                footer section. To allow the navbar content to fit more appropriately on mobile
+                                devices, the navbar is able to display with a hamburger icon.
 
                                 <br></br><br></br>
 
-                                What I enjoyed - Helped ready me to improve my portfolio site
-
-                                <br></br><br></br>
-
-                                Inspiration for this project - Creating a simple mobile responsive webpage,
-                                with a navbar, home, about, contact, and footer
+                                I built this project to improve my front-end skills.
+                                My goals for this project were to figure out how to create
+                                a hamburger icon, practice positioning elements, and become
+                                familiar with JavaScript React. Ultimately it enabled me to
+                                strengthen my skills for my portfolio site.
 
                             </div>
 

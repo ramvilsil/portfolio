@@ -1,3 +1,4 @@
+import Image from "next/image"
 
 
 const Intro = () => {
@@ -11,17 +12,22 @@ const Intro = () => {
                 <div className="flex justify-start mb-6">
 
                     {/* Image Place */}
-                    <div className='shadow-xl shadow-black bg-gradient-to-tr from-stone-600 via-stone-700 to-stone-600 w-16 h-16 rounded-full justify-center flex items-center border-2 border-sky-500 mr-4 text-6xl'></div>
+                    <div className='shadow-xl z-100 shadow-black bg-gradient-to-br from-indigo-400 to-transparent w-16 h-16 rounded-full justify-center flex items-center mr-4'>
+
+                        <div className="bg-white w-14 h-14 rounded-full justify-center flex items-center">
+
+                        </div>
+
+                    </div>
 
                     {/* Name */}
                     <div className="flex flex-col justify-center opacity-80">
 
-                        <h1 className="w-max text-4xl font-semibold">Ramon</h1>
+                        <h1 className="w-max text-4xl font-semibold ">Ramon</h1>
 
                         <div className='text-lg'>Web Developer</div>
 
                     </div>
-
 
                 </div>
 

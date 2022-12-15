@@ -23,7 +23,7 @@ const Contact = () => {
                                 <div className='flex flex-col py-2'>
                                     <label className='text-sm py-2 font-light'>Name</label>
                                     <input
-                                        className='border-2 rounded-lg p-3 flex text-stone-900'
+                                        className='border-2 rounded-lg p-3 flex text-black'
                                         type='text'
                                         name='name' required
                                     />
@@ -32,7 +32,7 @@ const Contact = () => {
                                 <div className='flex flex-col py-2'>
                                     <label className='text-sm py-2 font-light'>Email</label>
                                     <input
-                                        className='border-2 rounded-lg p-3 flex text-stone-900'
+                                        className='border-2 rounded-lg p-3 flex text-black'
                                         type='email'
                                         name='email' required
                                     />
@@ -40,7 +40,7 @@ const Contact = () => {
                                 <div className='flex flex-col py-2'>
                                     <label className='text-sm py-2 font-light'>Subject</label>
                                     <input
-                                        className='border-2 rounded-lg p-3 flex text-stone-900'
+                                        className='border-2 rounded-lg p-3 flex text-blac'
                                         type='text'
                                         name='subject'
                                     />
@@ -48,13 +48,13 @@ const Contact = () => {
                                 <div className='flex flex-col py-2'>
                                     <label className='text-sm py-2 font-light'>Message</label>
                                     <textarea
-                                        className='border-2 rounded-lg p-3 text-stone-900 resize-none'
+                                        className='border-2 rounded-lg p-3 text-black resize-none'
                                         rows={10}
                                         name='message' required
                                     ></textarea>
                                 </div>
 
-                                <button className='font-medium bg-gradient-to-br from-black via-stone-900 to-stone-900 w-full p-4 mt-4 rounded-2xl hover:opacity-60 '>
+                                <button className='font-medium bg-gradient-to-br from-black via-neutral-900 to-neutral-900 w-full p-4 mt-4 rounded-2xl hover:opacity-60 '>
                                     Send Message
                                 </button>
 

@@ -28,7 +28,7 @@ const Calculator = () => {
                     </div>
 
                     {/* Imported Project Section */}
-                    <Project title='Calculator Web App' projectImage='/assets/R-favicon.png' projectLink="https://ramvilsil.github.io/js-calculator/" projectSourceLink="https://github.com/ramvilsil/js-calculator" techInfo="HTML / CSS / JavaScript" />
+                    <Project title='Calculator Web App' projectImage='/assets/calc-project.png' projectLink="https://ramvilsil.github.io/js-calculator/" projectSourceLink="https://github.com/ramvilsil/js-calculator" techInfo="HTML / CSS / JavaScript" />
 
                     {/* Description Section Container */}
                     <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 mt-12 mb-16 w-11/12 shadow-lg shadow-black">
