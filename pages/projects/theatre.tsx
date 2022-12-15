@@ -32,8 +32,7 @@ const Theatre = () => {
                     <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 mb-16 w-11/12 shadow-lg shadow-black mt-32">
 
                         {/* Description Title */}
-                        <h1 className="w-max text-3xl m-4 font-semibold">Description</h1>
-
+                        <h1 className="w-max text-3xl m-4 font-semibold">Theatre CMS<div className="text-lg font-normal portrait:hidden">with ASP.NET MVC / Entity Framework <br></br> BootStrap / jQuery / and more</div></h1>
 
                         {/* Description Text */}
                         <div className="flex items-center flex-col">

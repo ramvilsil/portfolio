@@ -42,25 +42,46 @@ const Portfolio = () => {
 
                             <div className="p-4 font-light">
 
-                                Why I built this project - To improve my front end skills, mobile responsivness,
-                                practice positioning elements, gain better familiarity wtih the technologies I used
+                                I created this portfolio website to showcase my work, but in the process,
+                                I improved my front end abilities like element positioning and mobile responsiveness.
+                                I also became more familiar with the technologies I applied.
 
 
                                 <br></br><br></br>
 
-                                What I enjoyed - Tailwind CSS makes it much easier to apply styling. In turn I spend less time on the css syntax
-                                and more on the actual styling, makes for a better site. Working on the front end I find that it's more effective
-                                than BootStrap.
+                                I appreciated how the Tailwind CSS framework accelerates styling while retaining a lot
+                                of the customizability that plain CSS provides. As a result, I spent less effort on CSS
+                                syntax and more time on actual styling, resulting in a better-looking site. While working
+                                on various projects, I've bounced between Tailwind, plain CSS, and Bootstrap and I'd say
+                                I prefer Tailwind over both others. It's due to the fact that you don't have to leave
+                                the HTML page with Tailwind. The main disadvantage of Tailwind is that the HTML classes
+                                can get quite lengthy and often disorganized, making it difficult to pinpoint where there
+                                may be conflicting styling classes.
 
                                 <br></br><br></br>
 
-                                Inspiration for this project -
+                                I had initially created my portfolio website with plain HTML, CSS, and JavaScript,
+                                but I found it too boring and wanted to play around with other technologies.
+                                <br></br><br></br>
 
-                                <ul className="list-disc">
+                                <div className="text-center">Check out <a className="underline hover:opacity-70" href="https://ramvilsil.github.io/beginner-portfolio/">my first portfolio website</a>.</div>
 
-                                    <li><a className="hover:underline" href="https://portfolio-next-mumef3aki-fireclint.vercel.app/">portfolio-next-mumef3aki-fireclint.vercel.app</a></li>
+                                <br></br>
 
-                                    <li><a className="hover:underline" href="https://delba.dev/">delba.dev</a></li>
+                                Seeking to create a better portfolio website, I explored around and found inspiration from a few sites.
+
+                                <br></br><br></br>
+                                Here are their links. See if you can spot similarities with my site!
+
+                                <br></br><br></br>
+
+                                <ul className="list-disc ml-6">
+
+                                    <li className="mb-2"><a className="underline hover:opacity-70" href="https://portfolio-next-mumef3aki-fireclint.vercel.app/">portfolio-next-mumef3aki-fireclint.vercel.app</a></li>
+
+                                    <li className="mb-2"><a className="underline hover:opacity-70" href="https://delba.dev/">delba.dev</a></li>
+
+                                    <li><a className="underline hover:opacity-70" href="https://www.danielcranney.com/">danielcranney.com</a></li>
 
                                 </ul>
 
