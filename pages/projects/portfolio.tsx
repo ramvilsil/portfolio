@@ -29,7 +29,7 @@ const Portfolio = () => {
                     </div>
 
                     {/* Imported Project Section */}
-                    <Project title='Portfolio' projectImage='/assets/favicon.png' projectLink="https://rxvs.dev" projectSourceLink="https://github.com/ramvilsil/portfolio" techInfo="Next.js / TypeScript React / Tailwind CSS" />
+                    <Project title='Portfolio Website' projectImage='/assets/R-favicon.gif' projectLink="https://rxvs.dev" projectSourceLink="https://github.com/ramvilsil/portfolio" techInfo="Next.js / TypeScript React / Tailwind CSS" />
 
                     {/* Description Section Container */}
                     <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 mt-12 mb-16 w-11/12 shadow-lg shadow-black">

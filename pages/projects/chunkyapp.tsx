@@ -3,7 +3,7 @@ import Project from "../../components/Project"
 import Footer from "../../components/Footer"
 
 
-const App = () => {
+const ChunkyApp = () => {
     return (
 
         <>
@@ -29,7 +29,7 @@ const App = () => {
                     </div>
 
                     {/* Imported Project Section */}
-                    <Project title='App' projectImage='/assets/favicon.png' projectLink="https://github.com/ramvilsil/" projectSourceLink="https://github.com/ramvilsil/" techInfo='React JS / Tailwind CSS' />
+                    <Project title='ChunkyApp Web App' projectImage='/assets/R-favicon.png' projectLink="https://github.com/ramvilsil/" projectSourceLink="https://github.com/ramvilsil/" techInfo='ASP.NET MVC' />
 
                     {/* Description Section Container */}
                     <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 mt-12 mb-16 w-11/12 shadow-lg shadow-black">
@@ -43,6 +43,14 @@ const App = () => {
                             <div className="p-4 font-light">
 
                                 {/* Description text here */}
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Donec posuere mi ut dapibus aliquam. In hac habitasse platea dictumst.
+                                Sed porta metus ac sapien tempus, ut ultrices lacus fermentum.
+                                Donec tincidunt luctus magna, a vestibulum ante. Quisque et efficitur mauris.
+                                Ut ut faucibus urna, quis rhoncus sem. Suspendisse porta felis tempus
+                                leo scelerisque volutpat. Phasellus vel mauris non quam blandit tempus id in mi.
+                                Nam hendrerit magna quis neque dictum posuere. Vestibulum sed fringilla nisi.
 
                             </div>
 
@@ -67,4 +75,4 @@ const App = () => {
 
 }
 
-export default App
+export default ChunkyApp
