@@ -3,7 +3,7 @@ import Project from "../../components/Project"
 import Footer from "../../components/Footer"
 
 
-const SmallBusiness = () => {
+const Calculator = () => {
     return (
 
         <>
@@ -28,7 +28,7 @@ const SmallBusiness = () => {
                     </div>
 
                     {/* Imported Project Section */}
-                    <Project title='Small Business Web Page' projectImage='/assets/business.png' projectLink="https://business-website-one.vercel.app" projectSourceLink="https://github.com/ramvilsil/business-webpage" techInfo="React" />
+                    <Project title='Calculator Web App' projectImage='/assets/R-favicon.png' projectLink="https://ramvilsil.github.io/js-calculator/" projectSourceLink="https://github.com/ramvilsil/js-calculator" techInfo="HTML / CSS / JavaScript" />
 
                     {/* Description Section Container */}
                     <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 mt-12 mb-16 w-11/12 shadow-lg shadow-black">
@@ -41,17 +41,10 @@ const SmallBusiness = () => {
 
                             <div className="p-4 font-light">
 
-                                Why I built this project - Improve front end skills, mobile responsivness, learn how to create a
-                                hamburger icon, practice positioning elements, gain familiarity wtih React
-
-                                <br></br><br></br>
-
-                                What I enjoyed - Helped ready me to improve my portfolio site
-
-                                <br></br><br></br>
-
-                                Inspiration for this project - Creating a simple mobile responsive webpage,
-                                with a navbar, home, about, contact, and footer
+                                The user is to interact with the digital calculator
+                                as designed by clicking on responsive elements.
+                                The calculator will display the results of basic
+                                mathematical calculations upon valid input from the user.
 
                             </div>
 
@@ -77,4 +70,4 @@ const SmallBusiness = () => {
 }
 
 
-export default SmallBusiness
+export default Calculator

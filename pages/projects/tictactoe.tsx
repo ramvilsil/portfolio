@@ -3,7 +3,7 @@ import Project from "../../components/Project"
 import Footer from "../../components/Footer"
 
 
-const SmallBusiness = () => {
+const TicTacToe = () => {
     return (
 
         <>
@@ -28,7 +28,7 @@ const SmallBusiness = () => {
                     </div>
 
                     {/* Imported Project Section */}
-                    <Project title='Small Business Web Page' projectImage='/assets/business.png' projectLink="https://business-website-one.vercel.app" projectSourceLink="https://github.com/ramvilsil/business-webpage" techInfo="React" />
+                    <Project title='Tic Tac Toe Web App' projectImage='/assets/tictactoe.png' projectLink="https://ramvilsil.github.io/tictactoe/" projectSourceLink="https://github.com/ramvilsil/tictactoe" techInfo="HTML / CSS / JavaScript" />
 
                     {/* Description Section Container */}
                     <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 mt-12 mb-16 w-11/12 shadow-lg shadow-black">
@@ -40,18 +40,15 @@ const SmallBusiness = () => {
                         <div className="flex items-center">
 
                             <div className="p-4 font-light">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Donec posuere mi ut dapibus aliquam. In hac habitasse platea dictumst.
+                                Sed porta metus ac sapien tempus, ut ultrices lacus fermentum.
+                                Donec tincidunt luctus magna, a vestibulum ante. Quisque et efficitur mauris.
+                                Ut ut faucibus urna, quis rhoncus sem. Suspendisse porta felis tempus
+                                leo scelerisque volutpat. Phasellus vel mauris non quam blandit tempus id in mi.
+                                Nam hendrerit magna quis neque dictum posuere. Vestibulum sed fringilla nisi.
 
-                                Why I built this project - Improve front end skills, mobile responsivness, learn how to create a
-                                hamburger icon, practice positioning elements, gain familiarity wtih React
 
-                                <br></br><br></br>
-
-                                What I enjoyed - Helped ready me to improve my portfolio site
-
-                                <br></br><br></br>
-
-                                Inspiration for this project - Creating a simple mobile responsive webpage,
-                                with a navbar, home, about, contact, and footer
 
                             </div>
 
@@ -77,4 +74,4 @@ const SmallBusiness = () => {
 }
 
 
-export default SmallBusiness
+export default TicTacToe

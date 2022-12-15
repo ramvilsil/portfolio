@@ -7,7 +7,7 @@ const Project = ({ title, projectImage, projectSourceLink, projectLink, techInfo
         <>
 
             {/* Project Section Container */}
-            <div className="mt-20 bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 text-white rounded-3xl p-8 w-11/12 shadow-lg shadow-black">
+            <div className="mt-32 bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 text-white rounded-3xl p-8 w-11/12 shadow-lg shadow-black">
 
                 {/* Project Title */}
                 <h1 className="w-max text-3xl m-4 font-semibold">{title}<div className="text-lg font-normal portrait:hidden">with {techInfo}</div></h1>

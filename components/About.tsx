@@ -14,9 +14,11 @@ const About = () => {
                 {/* About Text */}
                 <div className="p-4 font-light">
 
-                    I'm a Web Developer from the Portland Metro Area. <br></br> <br></br>
+                    I'm a Web Developer from the Portland Metro Area.
+                    <br></br> <br></br>
                     My web development journey began not long ago, despite my previous experience building simple programs with Python and JavaScript.
                     I greatly value the craft of strong designs in all scopes of programming.
+                    <br></br> <br></br>
                     I work full-stack, but I'm currently polishing my front-end design skills.
 
                 </div>
