@@ -25,39 +25,34 @@ const Projects = () => {
                     <div className="flex portrait:flex-col">
 
                         {/* Column 1 on landscape screens */}
-                        <div className="w-72 h-72 m-2 flex flex-col items-center">
-
-                            {/* Project Name */}
-                            <div className="text-lg">Portfolio Website</div>
-
-                            {/* Project Image */}
-                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project1Thumb} alt='/' />
+                        <div className="w-72 h-72 flex flex-col items-center">
 
                             {/* Project Button */}
                             <Link href='projects/portfolio'>
 
-                                <div className="bg-gradient-to-br from-black via-neutral-900 to-neutral-900 p-2 m-4 rounded-xl italic hover:opacity-60">Visit Project &rarr;</div>
+                                {/* Project Image */}
+                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={150} src={Project1Thumb} alt='/' />
 
                             </Link>
+
+                            {/* Project Name */}
+                            <div className="text-lg">Portfolio Website</div>
 
                         </div>
 
                         {/* Column 2 on landscape screens */}
-                        <div className="w-72 h-72 m-2 flex flex-col items-center">
+                        <div className="w-72 h-72 flex flex-col items-center">
+
+                            <Link href='projects/small-business'>
+
+                                {/* Project Image */}
+                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={150} src={Project2Thumb} alt='/' />
+
+                            </Link>
 
                             {/* Project Name */}
                             <div className="text-lg">Small Business Web Page</div>
 
-                            {/* Project Image */}
-                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project2Thumb} alt='/' />
-
-                            {/* Project Button */}
-                            <Link href='projects/small-business'>
-
-                                <div className="bg-gradient-to-br from-black via-neutral-900 to-neutral-900 p-2 m-4 rounded-xl italic hover:opacity-60">Visit Project &rarr;</div>
-
-                            </Link>
-
                         </div>
 
                     </div>
@@ -66,39 +61,32 @@ const Projects = () => {
                     <div className="flex portrait:flex-col">
 
                         {/* Column 1 on landscape screens */}
-                        <div className="w-72 h-72 m-2 flex flex-col items-center">
+                        <div className="w-72 h-72 flex flex-col items-center">
 
-                            {/* Project Name */}
-                            <div className="text-lg">ChunkyApp Web App</div>
+                            <Link href='projects/theatre'>
 
-                            {/* Project Image */}
-                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project3Thumb} alt='/' />
-
-                            {/* Project Button */}
-                            <Link href='projects/chunkyapp'>
-
-                                <div className="bg-gradient-to-br from-black via-neutral-900 to-neutral-900 p-2 m-4 rounded-xl italic hover:opacity-60">Visit Project &rarr;</div>
+                                {/* Project Image */}
+                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={150} src={Project4Thumb} alt='/' />
 
                             </Link>
-
-                        </div>
-
-                        {/* Column 2 on landscape screens */}
-                        <div className="w-72 h-72 m-2 flex flex-col items-center">
 
                             {/* Project Name */}
                             <div className="text-lg">Theatre CMS</div>
 
-                            {/* Project Image */}
-                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project4Thumb} alt='/' />
+                        </div>
 
+                        {/* Column 2 on landscape screens */}
+                        <div className="w-72 h-72 flex flex-col items-center">
 
-                            {/* Project Button */}
-                            <Link href='projects/theatre'>
+                            <Link href='projects/tictactoe'>
 
-                                <div className="bg-gradient-to-br from-black via-neutral-900 to-neutral-900 p-2 m-4 rounded-xl italic hover:opacity-60">Visit Project &rarr;</div>
+                                {/* Project Image */}
+                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={150} src={Project6Thumb} alt='/' />
 
                             </Link>
+
+                            {/* Project Name */}
+                            <div className="text-lg">Tic Tac Toe Web App</div>
 
                         </div>
 
@@ -108,38 +96,17 @@ const Projects = () => {
                     <div className="flex portrait:flex-col">
 
                         {/* Column 1 on landscape screens */}
-                        <div className="w-72 h-72 m-2 flex flex-col items-center">
+                        <div className="w-72 h-72 flex flex-col items-center">
+
+                            <Link href='projects/calculator'>
+
+                                {/* Project Image */}
+                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={150} src={Project5Thumb} alt='/' />
+
+                            </Link>
 
                             {/* Project Name */}
                             <div className="text-lg">Calculator Web App</div>
-
-                            {/* Project Image */}
-                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project5Thumb} alt='/' />
-
-                            {/* Project Button */}
-                            <Link href='projects/calculator'>
-
-                                <div className="bg-gradient-to-br from-black via-neutral-900 to-neutral-900 p-2 m-4 rounded-xl italic hover:opacity-60">Visit Project &rarr;</div>
-
-                            </Link>
-
-                        </div>
-
-                        {/* Column 2 on landscape screens */}
-                        <div className="w-72 h-72 m-2 flex flex-col items-center">
-
-                            {/* Project Name */}
-                            <div className="text-lg">Tic Tac Toe Web App</div>
-
-                            {/* Project Image */}
-                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project6Thumb} alt='/' />
-
-                            {/* Project Button */}
-                            <Link href='projects/tictactoe'>
-
-                                <div className="bg-gradient-to-br from-black via-neutral-900 to-neutral-900 p-2 m-4 rounded-xl italic hover:opacity-60">Visit Project &rarr;</div>
-
-                            </Link>
 
                         </div>
 

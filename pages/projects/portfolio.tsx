@@ -22,7 +22,7 @@ const Portfolio = () => {
                 <div className="h-fit w-6/12 portrait:w-screen flex items-center flex-col">
 
                     {/* Mobile Navbar */}
-                    <div className="landscape:hidden sticky top-0 portrait:top-2 portrait:w-11/12 w-full">
+                    <div className="landscape:hidden z-50 sticky top-0 portrait:top-2 portrait:w-11/12 w-full">
 
                         <SharedNavbar />
 

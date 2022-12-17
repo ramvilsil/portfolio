@@ -20,8 +20,8 @@ const TicTacToe = () => {
                 {/* Main Container */}
                 <div className="h-fit w-6/12 portrait:w-screen flex items-center flex-col">
 
-                    {/* Navbar */}
-                    <div className="landscape:hidden sticky top-0 portrait:top-2 portrait:w-11/12 w-full">
+                    {/* Mobile Navbar */}
+                    <div className="landscape:hidden z-50 sticky top-0 portrait:top-2 portrait:w-11/12 w-full">
 
                         <SharedNavbar />
 
@@ -40,15 +40,10 @@ const TicTacToe = () => {
                         <div className="flex items-center">
 
                             <div className="p-4 font-light">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec posuere mi ut dapibus aliquam. In hac habitasse platea dictumst.
-                                Sed porta metus ac sapien tempus, ut ultrices lacus fermentum.
-                                Donec tincidunt luctus magna, a vestibulum ante. Quisque et efficitur mauris.
-                                Ut ut faucibus urna, quis rhoncus sem. Suspendisse porta felis tempus
-                                leo scelerisque volutpat. Phasellus vel mauris non quam blandit tempus id in mi.
-                                Nam hendrerit magna quis neque dictum posuere. Vestibulum sed fringilla nisi.
 
-
+                                Tic Tac Toe game in which through mouse input,
+                                the user may play against the computer/bot.
+                                The game board resets when one wins or in the case of a tie.
 
                             </div>
 

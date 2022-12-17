@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 text-white rounded-3xl p-8 portrait:p-4 shadow-lg shadow-black">
 
                 {/* Contact Title */}
-                <h1 className="w-max text-3xl m-4 font-semibold portrait:text-2xl">Contact<div className="text-lg font-normal portrait:hidden">Feel free to get in touch.</div></h1>
+                <h1 className="w-max text-3xl m-4 font-semibold portrait:text-2xl">Contact<div className="text-lg font-normal portrait:hidden">Let's get in touch.</div></h1>
 
                 {/* Contact Form Container */}
                 <div className="flex justify-evenly items-center">

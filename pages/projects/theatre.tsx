@@ -22,7 +22,7 @@ const Theatre = () => {
                 <div className="h-fit w-6/12 portrait:w-screen flex items-center flex-col">
 
                     {/* Mobile Navbar */}
-                    <div className="landscape:hidden sticky top-0 portrait:top-2 portrait:w-11/12 w-full">
+                    <div className="landscape:hidden sticky z-50 top-0 portrait:top-2 portrait:w-11/12 w-full">
 
                         <SharedNavbar />
 
@@ -41,13 +41,12 @@ const Theatre = () => {
 
                                 {/* Description text here */}
 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec posuere mi ut dapibus aliquam. In hac habitasse platea dictumst.
-                                Sed porta metus ac sapien tempus, ut ultrices lacus fermentum.
-                                Donec tincidunt luctus magna, a vestibulum ante. Quisque et efficitur mauris.
-                                Ut ut faucibus urna, quis rhoncus sem. Suspendisse porta felis tempus
-                                leo scelerisque volutpat. Phasellus vel mauris non quam blandit tempus id in mi.
-                                Nam hendrerit magna quis neque dictum posuere. Vestibulum sed fringilla nisi.
+                                I had the opportunity to work as part of a development team to
+                                create a full-scale MVC Web Application in C#. We used Agile/Scrum,
+                                with two-week sprints. I completed several stories while working
+                                on both the front and backend.
+
+
 
                             </div>
 

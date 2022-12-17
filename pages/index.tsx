@@ -43,7 +43,7 @@ export default function Home() {
           </div>
 
           {/* Mobile Index Navbar Container */}
-          <div className="sticky top-0 portrait:top-2 portrait:w-11/12 w-full landscape:hidden">
+          <div className="sticky top-0 z-50 portrait:top-2 portrait:w-11/12 w-full landscape:hidden">
 
             <IndexNavbar />
 
