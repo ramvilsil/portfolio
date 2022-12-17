@@ -6,10 +6,10 @@ const About = () => {
         <>
 
             {/* About Container */}
-            <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 text-white rounded-3xl p-8 shadow-lg shadow-black">
+            <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 text-white rounded-3xl p-8 portrait:p-4 shadow-lg shadow-black">
 
                 {/* About Title */}
-                <h1 className="w-max text-3xl m-4 font-semibold">About<div className="text-lg font-normal portrait:hidden">My approach and vision.</div></h1>
+                <h1 className="w-max text-3xl m-4 font-semibold portrait:text-2xl">About<div className="text-lg font-normal portrait:hidden">My approach and vision.</div></h1>
 
                 {/* About Text */}
                 <div className="p-4 font-light">
