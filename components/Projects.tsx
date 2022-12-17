@@ -13,10 +13,10 @@ const Projects = () => {
         <>
 
             {/* Project Section Container */}
-            <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 shadow-lg shadow-black text-white">
+            <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 portrait:p-4 shadow-lg shadow-black text-white">
 
                 {/* Title */}
-                <h1 className="w-max rounded-lg text-3xl m-4 mb-12 font-semibold portrait:m-auto portrait:mb-12 portrait:mt-4">Projects<div className="text-lg font-normal portrait:hidden">What I've worked on recently.</div></h1>
+                <h1 className="w-max rounded-lg text-3xl m-4 mb-12 font-semibold portrait:text-2xl">Projects<div className="text-lg font-normal portrait:hidden">What I've worked on recently.</div></h1>
 
                 {/* Projects Container */}
                 <div className="flex justify-evenly items-center flex-col ">
@@ -31,7 +31,7 @@ const Projects = () => {
                             <div className="text-lg">Portfolio Website</div>
 
                             {/* Project Image */}
-                            <Image className='bg-white rounded-lg m-2 p-4' height={150} src={Project1Thumb} alt='/' />
+                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project1Thumb} alt='/' />
 
                             {/* Project Button */}
                             <Link href='projects/portfolio'>
@@ -49,7 +49,7 @@ const Projects = () => {
                             <div className="text-lg">Small Business Web Page</div>
 
                             {/* Project Image */}
-                            <Image className='bg-white rounded-lg m-2 p-4' height={150} src={Project2Thumb} alt='/' />
+                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project2Thumb} alt='/' />
 
                             {/* Project Button */}
                             <Link href='projects/small-business'>
@@ -72,7 +72,7 @@ const Projects = () => {
                             <div className="text-lg">ChunkyApp Web App</div>
 
                             {/* Project Image */}
-                            <Image className='bg-white rounded-lg m-2 p-4' height={150} src={Project3Thumb} alt='/' />
+                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project3Thumb} alt='/' />
 
                             {/* Project Button */}
                             <Link href='projects/chunkyapp'>
@@ -90,7 +90,7 @@ const Projects = () => {
                             <div className="text-lg">Theatre CMS</div>
 
                             {/* Project Image */}
-                            <Image className='bg-white rounded-lg m-2 p-4' height={150} src={Project4Thumb} alt='/' />
+                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project4Thumb} alt='/' />
 
 
                             {/* Project Button */}
@@ -114,7 +114,7 @@ const Projects = () => {
                             <div className="text-lg">Calculator Web App</div>
 
                             {/* Project Image */}
-                            <Image className='bg-white rounded-lg m-2 p-4' height={150} src={Project5Thumb} alt='/' />
+                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project5Thumb} alt='/' />
 
                             {/* Project Button */}
                             <Link href='projects/calculator'>
@@ -132,7 +132,7 @@ const Projects = () => {
                             <div className="text-lg">Tic Tac Toe Web App</div>
 
                             {/* Project Image */}
-                            <Image className='bg-white rounded-lg m-2 p-4' height={150} src={Project6Thumb} alt='/' />
+                            <Image className='bg-white rounded-3xl m-2 p-2' height={150} src={Project6Thumb} alt='/' />
 
                             {/* Project Button */}
                             <Link href='projects/tictactoe'>

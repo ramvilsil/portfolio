@@ -31,10 +31,10 @@ const SmallBusiness = () => {
                     <Project title='Small Business Web Page' projectImage='/assets/business.png' projectLink="https://business-website-one.vercel.app" projectSourceLink="https://github.com/ramvilsil/business-webpage" techInfo="React" />
 
                     {/* Description Section Container */}
-                    <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 mt-12 mb-16 w-11/12 shadow-lg shadow-black">
+                    <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 portrait:p-4 mt-12 mb-16 w-11/12 shadow-lg shadow-black">
 
                         {/* Description Title */}
-                        <h1 className="w-max text-3xl m-4 font-semibold">Description</h1>
+                        <h1 className="w-max text-3xl portrait:text-2xl m-4 font-semibold">Description</h1>
 
                         {/* Description Text */}
                         <div className="flex items-center">
