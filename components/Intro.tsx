@@ -38,7 +38,7 @@ const Intro = () => {
 
                         Welcome to my online portfolio.
                         <br></br>
-                        Here I'll share my projects as well as my tactics for becoming a better problem solver.
+                        Here I'll share my projects and experiences as a developer.
 
                     </div>
 
