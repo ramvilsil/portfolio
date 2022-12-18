@@ -13,9 +13,10 @@ const Footer = () => {
 
                 {/* Row 2 - Social Links */}
                 <div>
-                    
-                    <a href="https://github.com/ramvilsil" className="p-4 m-4 opacity-50 hover:opacity-100 hover:underline">GitHub</a>
-                    <a href="https://www.linkedin.com/in/ramvilsil/" className="p-4 m-4 opacity-50 hover:opacity-100 hover:underline">LinkedIn</a>
+
+                    <a href="https://github.com/ramvilsil" className="m-8 opacity-50 hover:opacity-100 hover:underline">GitHub</a>
+                    <a href="https://www.linkedin.com/in/ramvilsil/" className="m-8 opacity-50 hover:opacity-100 hover:underline">LinkedIn</a>
+                    <a href="https://ramvilsil.github.io/about/resume.pdf" className="m-8 opacity-50 hover:opacity-100 hover:underline">Resume</a>
 
                 </div>
 
@@ -40,11 +41,11 @@ const Footer = () => {
 
                     <div className="opacity-50 landscape:hidden">Deployed with&nbsp;</div>
                     <a href="https://vercel.com/" className="opacity-50 hover:opacity-100 hover:underline landscape:hidden">Vercel</a>
-                    
+
                 </div>
 
             </footer>
-        
+
         </>
 
     )

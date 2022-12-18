@@ -40,7 +40,7 @@ const Contact = () => {
                                 <div className='flex flex-col py-2'>
                                     <label className='text-sm py-2 font-light'>Subject</label>
                                     <input
-                                        className='border-2 rounded-lg p-3 flex text-blac'
+                                        className='border-2 rounded-lg p-3 flex text-black'
                                         type='text'
                                         name='subject'
                                     />
