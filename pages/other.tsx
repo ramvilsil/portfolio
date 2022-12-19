@@ -13,7 +13,7 @@ const Other = () => {
                 <div className="h-fit w-6/12 portrait:w-screen flex items-center flex-col">
 
                     {/* Description Section Container */}
-                    <div className="rounded-3xl p-8 mt-72 mb-16 w-11/12">
+                    <div className="rounded-3xl p-8 mb-16 w-11/12">
 
                         {/* Description Title */}
                         <h1 className="w-max text-3xl font-semibold m-auto">Unlisted Content</h1>
@@ -25,7 +25,11 @@ const Other = () => {
 
                                 {/* Description text here */}
 
-                                Built a graphics card bitcoin mining rig, I learned a lot. --Images here--
+                                <div className="text-2xl mb-4">Crypto Mining</div>
+
+                                As the price of Bitcoin had recently fallen I decided to build a graphics card bitcoin mining rig.
+
+                                I was surprised it was not as difficult as it seemed to set up.
 
                             </div>
 
