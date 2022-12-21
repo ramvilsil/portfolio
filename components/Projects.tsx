@@ -20,13 +20,13 @@ const Projects = () => {
                 <h1 className="w-max rounded-lg text-3xl m-4 mb-12 font-semibold portrait:text-2xl">Projects<div className="text-lg font-normal portrait:hidden">What I've worked on recently.</div></h1>
 
                 {/* Projects Container */}
-                <div className="flex justify-evenly items-center flex-col text-center mb-12">
+                <div className="flex justify-evenly items-center flex-col text-center portrait:mb-6">
 
                     {/* Row 1 on landscape screens */}
-                    <div className="flex justify-evenly mb-10 portrait:flex-col portrait:mb-0">
+                    <div className="flex justify-between mb-10 portrait:flex-col portrait:mb-0">
 
                         {/* Column 1 on landscape screens */}
-                        <div className="w-36 h-36 flex flex-col items-center m-2 portrait:mb-10">
+                        <div className="w-full flex flex-col m-2 portrait:flex-row-reverse items-center portrait:justify-start">
 
                             {/* Project Button */}
                             <Link href='projects/portfolio'>
@@ -37,12 +37,12 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="text-lg">Portfolio Website</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-8">Portfolio Website</div>
 
                         </div>
 
                         {/* Column 2 on landscape screens */}
-                        <div className="w-36 h-36 flex flex-col items-center m-2 portrait:mb-10">
+                        <div className="w-full flex flex-col m-2 portrait:flex-row-reverse items-center portrait:justify-start">
 
                             <Link href='projects/small-business'>
 
@@ -52,12 +52,12 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="text-lg">Small Business Web Page</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-8">Small Business Web Page</div>
 
                         </div>
 
                         {/* Column 3 on landscape screens */}
-                        <div className="w-36 h-36 flex flex-col items-center m-2 portrait:mb-10">
+                        <div className="w-full flex flex-col m-2 portrait:flex-row-reverse items-center portrait:justify-start">
 
                             <Link href='projects/theatre'>
 
@@ -67,34 +67,33 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="text-lg">Theatre CMS</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-8">Theatre CMS</div>
 
                         </div>
 
-                        {/* Column 4 on landscape screens */}
-                        <div className="w-36 h-36 flex flex-col items-center m-2 portrait:mb-10">
+                        {/* Column 4 on landscape screens 
+                        <div className="w-full flex flex-col m-2 portrait:flex-row-reverse portrait:items-center portrait:justify-start">
 
                             <Link href='projects/tictactoe'>
 
-                                {/* Project Image */}
                                 <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={100} src={Project6Thumb} alt='/' />
 
                             </Link>
 
-                            {/* Project Name */}
-                            <div className="text-lg">Tic Tac Toe Web App</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:mr-8">Tic Tac Toe <br></br>Web App</div>
 
                         </div>
+                    */}
 
                     </div>
 
-
                     {/* Row 2 on landscape screens */}
-                    <div className="flex justify-evenly portrait:flex-col">
+                    <div className="flex justify-between mb-10 portrait:flex-col portrait:mb-0">
 
                         {/* Column 1 on landscape screens */}
-                        <div className="w-36 h-36 flex flex-col items-center m-2 portrait:mb-10">
+                        <div className="w-full flex flex-col m-2 portrait:flex-row-reverse items-center portrait:justify-start">
 
+                            {/* Project Button */}
                             <Link href='projects/calculator'>
 
                                 {/* Project Image */}
@@ -103,14 +102,14 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="text-lg">Calculator Web App</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-8">Calculator Web App</div>
 
                         </div>
 
-                        {/* Column 1 on landscape screens */}
-                        <div className="w-36 h-36 flex flex-col items-center m-2 portrait:mb-10">
+                        {/* Column 2 on landscape screens */}
+                        <div className="w-full flex flex-col m-2 portrait:flex-row-reverse items-center portrait:justify-start">
 
-                            <Link href='https://github.com/ramvilsil/js-todoapp'>
+                            <Link href='https://github.com/ramvilsil/todo-app'>
 
                                 {/* Project Image */}
                                 <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={100} src={Project7Thumb} alt='/' />
@@ -118,7 +117,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="text-lg">To-Do Web App</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-8">To-Do Web App</div>
 
                         </div>
 
