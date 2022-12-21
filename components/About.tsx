@@ -14,22 +14,13 @@ const About = () => {
                 {/* About Text */}
                 <div className="p-4 font-light">
 
-                    My web development journey began not too long ago. Prior to web development
-                    I've had a bit of previous experience building simple programs with Python and JavaScript.
-                    <br></br>
-                    I enjoy programming as a whole, not just web development, as I know it can and has changed the world.
-
+                    I've always enjoyed programming as a whole, not just web development.
+                    Prior to getting into web development, I had knowledge of Python and JavaScript programming from high school.
+                    In the summer of 2022, I began self-teaching, and in the fall, I enrolled in a web development bootcamp.
 
                     <br></br> <br></br>
-                    My aspiration is to design and deliver amazing software products to clients, regardless of the industry.
-                    I find it amazing that a program I contributed to has the capability of reaching the hands of pretty much the whole world, anywhere in the world.
-
-                    <br></br> <br></br>
-                    If you are a beginner interested in learning more about web development or seeking to collaborate,
-                    please feel free to contact me through the form below.
-
-                    <br></br> <br></br>
-                    Thank you for taking the time to check out my site.
+                    One of the many reasons I love what I do is that I find it amazing that
+                    a piece of software I helped build has the potential to reach the hands of people all around the world.
 
                 </div>
 
