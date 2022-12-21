@@ -17,7 +17,7 @@ const Projects = () => {
             <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 portrait:p-4 shadow-lg shadow-black text-white">
 
                 {/* Title */}
-                <h1 className="w-max rounded-lg text-3xl m-4 mb-12 font-semibold portrait:text-2xl">Projects<div className="text-lg font-normal portrait:hidden">What I've worked on recently.</div></h1>
+                <h1 className="w-max rounded-lg text-3xl m-4 mb-6 font-semibold portrait:text-2xl">Projects<div className="text-lg font-normal portrait:hidden">What I've worked on recently.</div></h1>
 
                 {/* Projects Container */}
                 <div className="flex justify-evenly items-center flex-col text-center portrait:mb-6">
@@ -37,7 +37,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-8">Portfolio Website</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-12">Portfolio Website</div>
 
                         </div>
 
@@ -52,7 +52,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-8">Small Business Web Page</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-12">Small Business Web&nbsp;Page</div>
 
                         </div>
 
@@ -67,7 +67,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-8">Theatre CMS</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-12">Theatre CMS</div>
 
                         </div>
 
@@ -102,7 +102,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-8">Calculator Web App</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-12">Calculator Web&nbsp;App</div>
 
                         </div>
 
@@ -117,7 +117,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-8">To-Do Web App</div>
+                            <div className="portrait:text-left portrait:text-sm portrait:w-16 portrait:mr-12">To-Do Web&nbsp;App</div>
 
                         </div>
 
