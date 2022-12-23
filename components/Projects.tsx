@@ -37,7 +37,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="portrait:text-center portrait:w-16 portrait:mr-16">Portfolio Website</div>
+                            <div className="portrait:text-center portrait:w-20 portrait:mr-16">Portfolio Website</div>
 
                         </div>
 
@@ -52,7 +52,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="portrait:text-center portrait:w-16 portrait:mr-16">Small Business Web&nbsp;Page</div>
+                            <div className="portrait:text-center portrait:w-20 portrait:mr-16">Small Business Web Page</div>
 
                         </div>
 
@@ -67,7 +67,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="portrait:text-center portrait:w-16 portrait:mr-16">Theatre CMS</div>
+                            <div className="portrait:text-center portrait:w-20 portrait:mr-16">Theatre CMS</div>
 
                         </div>
 
@@ -102,7 +102,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="portrait:text-center portrait:w-16 portrait:mr-16">Calculator Web&nbsp;App</div>
+                            <div className="portrait:text-center portrait:w-20 portrait:mr-16">Calculator Web App</div>
 
                         </div>
 
@@ -117,7 +117,7 @@ const Projects = () => {
                             </Link>
 
                             {/* Project Name */}
-                            <div className="portrait:text-center portrait:w-16 portrait:mr-16">To-Do Web&nbsp;App</div>
+                            <div className="portrait:text-center portrait:w-20 portrait:mr-16">To-Do Web App</div>
 
                         </div>
 
