@@ -109,7 +109,7 @@ const Projects = () => {
                         {/* Column 2 on landscape screens */}
                         <div className="w-full flex flex-col m-2 portrait:flex-row-reverse items-center portrait:justify-start">
 
-                            <Link href='https://github.com/ramvilsil/todo-app'>
+                            <Link href='projects/todo-app'>
 
                                 {/* Project Image */}
                                 <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={100} src={Project7Thumb} alt='/' />
