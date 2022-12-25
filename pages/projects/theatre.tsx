@@ -32,7 +32,7 @@ const Theatre = () => {
                     <div className="bg-gradient-to-br from-zinc-700 via-zinc-800 to-zinc-700 rounded-3xl p-8 portrait:p-4 mb-16 w-11/12 shadow-lg shadow-black mt-32">
 
                         {/* Description Title */}
-                        <h1 className="w-max text-3xl portrait:text-2xl m-4 font-semibold">Theatre CMS<div className="text-lg font-normal portrait:hidden">with ASP.NET MVC / Entity Framework <br></br> BootStrap / jQuery / and more</div></h1>
+                        <h1 className="w-max text-3xl portrait:text-2xl m-4 font-semibold">Theatre CMS<div className="text-lg font-normal portrait:hidden">with ASP.NET MVC / Entity Framework <br></br> Bootstrap / jQuery / and more</div></h1>
 
                         {/* Description Text */}
                         <div className="flex items-center flex-col">
@@ -48,7 +48,7 @@ const Theatre = () => {
                                 Our team employed Agile/Scrum, with two-week sprints
                                 that included planning, daily standups, sprint
                                 retrospectives, and review. I worked on various
-                                user stories on both the front and backend
+                                user stories on both the front and backend.
 
                             </div>
 
