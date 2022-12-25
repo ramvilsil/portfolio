@@ -12,11 +12,9 @@ const Intro = () => {
                 <div className="flex justify-start mb-6">
 
                     {/* Image Place */}
-                    <div className='shadow-xl z-100 shadow-black bg-gradient-to-br from-indigo-400 to-transparent w-16 h-16 rounded-full justify-center flex items-center mr-4'>
+                    <div className='shadow-xl shadow-black bg-gradient-to-br from-white to-transparent w-16 h-16 rounded-full justify-center flex items-center mr-4'>
 
-                        <div className="bg-white w-14 h-14 rounded-full justify-center flex items-center">
-
-                        </div>
+                        <img className="w-14 h-14 rounded-full" src=""></img>
 
                     </div>
 
