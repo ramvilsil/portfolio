@@ -14,7 +14,7 @@ const Intro = () => {
                     {/* Image Place */}
                     <div className='shadow-xl shadow-black bg-gradient-to-br from-white to-transparent w-16 h-16 rounded-full justify-center flex items-center mr-4'>
 
-                        <img className="w-14 h-14 rounded-full" src=""></img>
+                        <img className="w-14 h-14 rounded-full" src="https://media.licdn.com/dms/image/D5603AQGa7Dgb4YwKjg/profile-displayphoto-shrink_800_800/0/1672078313516?e=1677715200&v=beta&t=P-FUSihs7sAbxL-2nfUMep_vQ3fKSGs3OOoj0hY1Jnc"></img>
 
                     </div>
 
