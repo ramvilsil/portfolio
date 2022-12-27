@@ -21,7 +21,7 @@ const SmallBusiness = () => {
                 <div className="h-fit w-6/12 portrait:w-screen flex items-center flex-col">
 
                     {/* Navbar */}
-                    <div className="landscape:hidden sticky z-50 top-0 portrait:top-2 portrait:w-11/12 w-full">
+                    <div className="landscape:hidden sticky z-50 top-0 portrait:top-2 portrait:w-10/12 w-full">
 
                         <SharedNavbar />
 
