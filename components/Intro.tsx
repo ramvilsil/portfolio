@@ -23,7 +23,7 @@ const Intro = () => {
 
                         <h1 className="w-max text-4xl font-semibold ">Ramon</h1>
 
-                        <div className='text-lg'>Web Developer</div>
+                        <div className='text-lg'>Full Stack Developer</div>
 
                     </div>
 
