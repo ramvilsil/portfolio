@@ -16,7 +16,6 @@ const Footer = () => {
 
                     <a href="https://github.com/ramvilsil" className="m-8 opacity-50 hover:opacity-100 hover:underline">GitHub</a>
                     <a href="https://www.linkedin.com/in/ramvilsil/" className="m-8 opacity-50 hover:opacity-100 hover:underline">LinkedIn</a>
-                    <a href="https://ramvilsil.github.io/about/resume.pdf" className="m-8 opacity-50 hover:opacity-100 hover:underline">Resume</a>
 
                 </div>
 

@@ -14,7 +14,7 @@ export default function Home() {
 
       <Head>
 
-        <title>Ramon | Web Developer</title>
+        <title>Ramon | Full Stack Developer</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
