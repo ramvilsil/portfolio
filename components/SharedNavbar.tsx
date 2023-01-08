@@ -13,25 +13,25 @@ const SharedNavbar = () => {
                 {/* Navbar Links */}
                 <Link href="/">
 
-                    <div className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Home</div>
+                    <div className="m-6 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Home</div>
 
                 </Link>
 
                 <Link href="/#projects">
 
-                    <div className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Projects</div>
+                    <div className="m-6 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Projects</div>
 
                 </Link>
 
                 <Link href="/#about">
 
-                    <div className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">About</div>
+                    <div className="m-6 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">About</div>
 
                 </Link>
 
                 <Link href="/#contact">
 
-                    <div className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Contact</div>
+                    <div className="m-6 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Contact</div>
 
                 </Link>
 

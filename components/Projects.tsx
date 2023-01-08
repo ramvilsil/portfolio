@@ -32,7 +32,7 @@ const Projects = () => {
                             <Link href='projects/portfolio'>
 
                                 {/* Project Image */}
-                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={100} src={Project1Thumb} alt='/' />
+                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60 shadow-lg shadow-black' height={100} src={Project1Thumb} alt='/' />
 
                             </Link>
 
@@ -47,7 +47,7 @@ const Projects = () => {
                             <Link href='projects/small-business'>
 
                                 {/* Project Image */}
-                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={100} src={Project2Thumb} alt='/' />
+                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60 shadow-lg shadow-black' height={100} src={Project2Thumb} alt='/' />
 
                             </Link>
 
@@ -62,7 +62,7 @@ const Projects = () => {
                             <Link href='projects/theatre'>
 
                                 {/* Project Image */}
-                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={100} src={Project4Thumb} alt='/' />
+                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60 shadow-lg shadow-black' height={100} src={Project4Thumb} alt='/' />
 
                             </Link>
 
@@ -70,20 +70,6 @@ const Projects = () => {
                             <div className="portrait:text-center portrait:w-20 portrait:mr-16">Theatre CMS</div>
 
                         </div>
-
-                        {/* Column 4 on landscape screens 
-                        <div className="w-full flex flex-col m-2 portrait:flex-row-reverse portrait:items-center portrait:justify-start">
-
-                            <Link href='projects/tictactoe'>
-
-                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={100} src={Project6Thumb} alt='/' />
-
-                            </Link>
-
-                            <div className="portrait:text-left portrait:text-sm portrait:mr-8">Tic Tac Toe <br></br>Web App</div>
-
-                        </div>
-                    */}
 
                     </div>
 
@@ -97,7 +83,7 @@ const Projects = () => {
                             <Link href='projects/calculator'>
 
                                 {/* Project Image */}
-                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={100} src={Project5Thumb} alt='/' />
+                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60 shadow-lg shadow-black' height={100} src={Project5Thumb} alt='/' />
 
                             </Link>
 
@@ -112,7 +98,7 @@ const Projects = () => {
                             <Link href='projects/todo-app'>
 
                                 {/* Project Image */}
-                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60' height={100} src={Project7Thumb} alt='/' />
+                                <Image className='bg-white rounded-3xl m-2 p-2 hover:opacity-60 shadow-lg shadow-black' height={100} src={Project7Thumb} alt='/' />
 
                             </Link>
 
