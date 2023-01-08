@@ -12,15 +12,15 @@ const Navbar = () => {
                 {/* Navbar Links */}
                 <Link href="/">
 
-                    <div className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Home</div>
+                    <div className="m-6 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Home</div>
 
                 </Link>
 
-                <a href="#projects" className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Projects</a>
+                <a href="#projects" className="m-6 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Projects</a>
 
-                <a href="#about" className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">About</a>
+                <a href="#about" className="m-6 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">About</a>
 
-                <a href="#contact" className="p-2 m-4 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Contact</a>
+                <a href="#contact" className="m-6 rounded-lg opacity-50 hover:opacity-100 portrait:m-2">Contact</a>
 
 
             </div>
